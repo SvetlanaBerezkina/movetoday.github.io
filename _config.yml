@@ -1,10 +1,12 @@
 title: Svetlana Berezkina
 description: Svetlana Berezkina
 author: SvetlanaBerezkina
-url: "https://movetoday.github.io"
+url: "http://movetoday.ru"
 baseurl: ""
 theme: minima
 plugins:
  - jekyll-feed
+ - jekyll-sitemap
  - jekyll-seo-tag
+ - jekyll-paginate
 
