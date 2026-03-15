@@ -1,4 +1,7 @@
 title: Svetlana Berezkin
+author:
+  name: SvetlanaBerezkina
+  email: your-email@domain.com
 theme: minima
 plugins:
  - jekyll-feed
