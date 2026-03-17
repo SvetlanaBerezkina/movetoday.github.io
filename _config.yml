@@ -1,29 +1,48 @@
-title: Svetlana Berezkina
-description: "Описание"
+# The Site Configuration
 
-author: SvetlanaBerezkina
-
-url: "http://movetoday.ru"
-
-baseurl: ""
-
+# Import the theme
 theme: minima
+
+# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
+# and doesn't have a custom domain.
+baseurl: ''
+
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+lang: ru-RU
+
+# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
+prefer_datetime_locale:
+
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Europe/Moscow
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
+title: Светлана Берёзкина                          # the main title
+
+description: Светлана Берёзкина # used by seo meta and the atom feed
+
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: 'http://movetoday.ru'
+
 
 plugins:
  - jekyll-sitemap
  - jekyll-seo-tag
 
 paginate: 5
-paginate_path: "/blog/page:num/"
 
 minima:
 
   nav_pages:
     - about.md
 
-  show_excerpts: true
+  show_excerpts: false
 
   social_links:
     - title: Telegram
       icon: telegram
-      url: "https://t.me/movetoday"
+      url: 'https://t.me/movetoday'
