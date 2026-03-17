@@ -32,6 +32,7 @@ url: 'http://movetoday.ru'
 plugins:
  - jekyll-sitemap
  - jekyll-seo-tag
+ - jekyll-archives
 
 paginate: 5
 
@@ -46,3 +47,35 @@ minima:
     - title: Telegram
       icon: telegram
       url: 'https://t.me/movetoday'
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - '*.gem'
+  - '*.gemspec'
+  - tools
+  - README.md
+  - CHANGELOG.md
+  - LICENSE
+  - gulpfile.js
+  - node_modules
+  - package*.json
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
