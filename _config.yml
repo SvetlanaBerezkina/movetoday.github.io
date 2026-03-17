@@ -9,4 +9,7 @@ plugins:
  - jekyll-sitemap
  - jekyll-seo-tag
  - jekyll-paginate
-
+minima:
+  show_excerpts: true
+  nav_pages:
+    - about.md
