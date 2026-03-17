@@ -44,9 +44,12 @@ minima:
   show_excerpts: false
 
   social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/SvetlanaBerezkina"
     - title: Telegram
-    - icon: telegram
-    - url: 'https://t.me/movetoday'
+      icon: telegram
+      url: "https://t.me/movetoday"
 
 sass:
   style: compressed
