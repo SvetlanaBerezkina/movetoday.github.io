@@ -46,8 +46,8 @@ minima:
 
   social_links:
     - title: Telegram
-      icon: telegram
-      url: 'https://t.me/movetoday'
+    - icon: telegram
+    - url: 'https://t.me/movetoday'
 
 sass:
   style: compressed
