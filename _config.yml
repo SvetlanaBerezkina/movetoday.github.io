@@ -16,6 +16,13 @@ plugins:
  - jekyll-paginate
 
 minima:
-  show_excerpts: true
+
   nav_pages:
     - about.md
+
+  show_excerpts: false
+
+  social_links:
+    - title: Telegram
+      icon: telegram
+      url: "https://t.me/movetoday"
