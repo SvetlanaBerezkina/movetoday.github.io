@@ -10,13 +10,12 @@ baseurl: ""
 theme: minima
 
 plugins:
- - jekyll-feed
  - jekyll-sitemap
  - jekyll-seo-tag
  - jekyll-paginate
 
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: "/blog/page:num/"
 
 minima:
 
