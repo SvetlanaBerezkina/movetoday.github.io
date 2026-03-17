@@ -23,7 +23,7 @@ minima:
   nav_pages:
     - about.md
 
-  show_excerpts: false
+  show_excerpts: true
 
   social_links:
     - title: Telegram
