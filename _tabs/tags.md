@@ -1,5 +1,6 @@
 ---
 layout: tags
-icon: fas fa-tags
+title: Тэги
+icon: fas fa-tag
 order: 2
 ---
