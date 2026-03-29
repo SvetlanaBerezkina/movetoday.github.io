@@ -21,21 +21,19 @@
     {%- assign content = content | replace: '</td><td class="rouge-code">', '</td> --><td class="rouge-code">' -%}
   {%- endif -%}
 
-  {%- if post.pin != true or include.full_text == true -%}
-    {%- assign content = content
-      | markdownify
-      | strip_html
-      | newline_to_br
-      | replace: '<br />', ' '
-      | strip_newlines
-      | strip
-    -%}
+  {%- assign content = content
+    | markdownify
+    | strip_html
+    | newline_to_br
+    | replace: '<br />', ' '
+    | strip_newlines
+    | strip
+  -%}
 
-    {%- unless include.full_text -%}
-      {%- assign max_length = include.max_length | default: 200 -%}
-      {%- assign content = content | truncate: max_length -%}
-    {%- endunless -%}
-  {%- endif -%}
+  {%- unless include.full_text -%}
+    {%- assign max_length = include.max_length | default: 200 -%}
+    {%- assign content = content | truncate: max_length -%}
+  {%- endunless -%}
 
   {{- content -}}
 {%- endif -%}
