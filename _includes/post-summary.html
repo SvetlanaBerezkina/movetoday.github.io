@@ -21,7 +21,7 @@
     {%- assign content = content | replace: '</td><td class="rouge-code">', '</td> --><td class="rouge-code">' -%}
   {%- endif -%}
 
-  {%- if post.pin != true or and include.full_text == true -%}
+  {%- if post.pin != true or include.full_text == true -%}
     {%- assign content = content
       | markdownify
       | strip_html
