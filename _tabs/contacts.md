@@ -7,7 +7,7 @@ order: 5
 Адрес: 
 - Андреевка, с24Г
 
-![Андреевка, с24Г](/assets/img/posts/IMG_20260715.JPG)
+![Андреевка, с24Г](/assets/img/posts/20260715.JPG)
 
 ![Андреевка, с24Г](/assets/img/posts/IMG_2238.JPG)
 
